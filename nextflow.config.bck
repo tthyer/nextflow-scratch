@@ -1,0 +1,9 @@
+process {
+    withName:count_lines {
+        container = 'ubuntu:latest'
+    }
+}
+docker {
+    enabled = true
+}
+process.shell = ['/bin/bash','-e']
