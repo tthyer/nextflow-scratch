@@ -1,1 +1,1 @@
-input_file: "s3://tthyer-sandbox/gwfcore-stack-update-policy.json"
+input_file: "s3://test-espresso/reference/hg38_wgs_scattered_calling_intervals.txt"
